@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create A New Account</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+
+    <form action="inder.html">
+      
+        <table class="acc" align="center" cellpadding="9">
+            
+            <tr>
+
+                <td><label for="firstname">FIRST NAME</label></td>
+                <td><input type="text" name="firstname" id="firstname" placeholder="Enter first name" size="15"
+                        maxlength="30" required>(max 30 characters a-z and A-Z)</td>
+            </tr>
+
+            <tr>
+
+                <td><label for="lastname">LAST NAME</label></td>
+                <td><input type="text" name="lastname" id="lastname" placeholder="Enter last name" size="15"
+                        maxlength="30" required>(max 30 characters a-z and A-Z)</td>
+            </tr>
+
+            <tr>
+                <td><label for="Email">EMAIL</label></td>
+                <td><input size="15" required placeholder="Enter your email" type="email" name="Email"></td>
+            </tr>
+
+            <tr>
+                <td><label for="Password">PASSWORD</label></td>
+                <td><input required size="15" placeholder="Enter your Password" type="Password" name="Password"></td>
+            </tr>
+            
+            <tr>
+                <td><label for="Password">CONFORM-PASSWORD</label></td>
+                <td><input required size="15" placeholder="Conform-Password" type="Password" name="Password"></td>
+            </tr>
+
+            <tr>
+                <td><label for="date of birth">DATE OF BIRTH</label></td>
+                <td> <select name="day">
+                        <option value="day">Day:</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+
+                    </select>
+                    <select name="month">
+                        <option value="month">Mon:</option>
+                        <option value="january">Jan</option>
+                        <option value="february">Feb</option>
+                        <option value="march">Mar</option>
+                        <option value="april">Apr</option>
+                        <option value="may">May</option>
+                        <option value="june">Jun</option>
+                        <option value="july">Jul</option>
+                        <option value="august">Aug</option>
+                        <option value="september">Sep</option>
+                        <option value="october">Oct</option>
+                        <option value="november">Nov</option>
+                        <option value="december">Dec</option>
+                    </select>
+                    <select name="year">
+                        <option value="year">Year:</option>
+                        <option value="2008">2005</option>
+                        <option value="2009">2004</option>
+                        <option value="2010">2003</option>
+                        <option value="2011">2002</option>
+                        <option value="2012">2001</option>
+                        <option value="2013">2000</option>
+                        <option value="2014">1999</option>
+                        <option value="2014">1998</option>
+                        <option value="2014">1997</option>
+                        <option value="2014">1996</option>
+                        <option value="2014">1995</option>
+                        <option value="2014">1994</option>
+                        <option value="2014">1993</option>
+                        <option value="2014">1992</option>
+                        <option value="2014">1991</option>
+                        <option value="2014">1990</option>
+                        <option value="2014">1989</option>
+                        <option value="2014">1987</option>
+                        <option value="2014">1986</option>
+                        <option value="2014">1985</option>
+                        <option value="2014">1984</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="mobilenumber">MOBILE NUMBER</label></td>
+                <td><input type="number" name="mobilenumber" id="mobilenumber" placeholder="Enter mobile number"
+                        size="15" maxlength="10" required>(10 digit number)</td>
+            </tr>
+
+            <tr>
+                <td><label for="gender">GENDER</label></td>
+                <td><label>Male</label>
+                    <input type="radio" name="gender" value="male" id="gender" required>
+                    <label>Female</label>
+                    <input type="radio" name="gender" value="female" id="gender" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="city">CITY</label></td>
+                <td><input type="text" name="city" id="city" size="15" maxlength="30" placeholder="Enter city name"
+                        required class="input">(max 30 characters a-z and A-Z)</td>
+            </tr>
+
+            <tr>
+                <td><label for="country">COUNTRY</label></td>
+                <td> <input type="text" name="country" id="country" size="15" placeholder="Enter country" required
+                        class="input">
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>
+                    <input type="checkbox" name="Agree">I Agree with <a href="#">Terms and Services</a> &
+                    <a href="#">Privacy and Policy</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="submit">
+                    <input type="reset" value="reset">
+                </td>
+            </tr>
+        </table>
+
+
+
+
+    </form>
+
+</body>
+
+</html>
